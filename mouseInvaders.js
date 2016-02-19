@@ -15,7 +15,7 @@ var canvas = document.getElementById('canvas'),
     gameOverEl = document.getElementById('gameOver'),
     closeEl = document.getElementById('close'),
     width = window.innerWidth - 100,
-    height = window.innerHeight -10,
+    height = window.innerHeight - 5,
     gameOver = false,
     player = {
       score: 0,
