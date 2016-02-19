@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0" >
+  <title>Mouse Invaders</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="welcome">
+    <div id="msg">
+      <div id="close">X</div>
+      <div id="text">
+        Welcome! You'll need a mouse to play this demo. Move your mouse to move the player, and use left click to shoot!
+        <br>
+        If 5 or more enemies hit the bottom of the screen, you're done!
+        <br>
+        Close this message to play. Good Luck!
+      </div>
+    </div>
+  </div>
+  <div id="gameOver">
+
+  </div>
+  <div id="info">
+    Score: <span id="score"></span>
+    <br>
+    Lives: <span id="lives"></span>
+  </div>
+  <canvas id="canvas"></canvas>
+  <script src="mouseInvaders.js" charset="utf-8"></script>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-57479220-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+</body>
+</html>
